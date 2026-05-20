@@ -74,7 +74,7 @@ export default function LandingPage() {
         },
       ]}
       buttonAnimation="slide-up"
-      imageSrc="http://img.b2bpic.net/free-photo/spacious-residential-complex-waterfront-with-reflection-modern-building-construction_169016-69211.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/spacious-residential-complex-waterfront-with-reflection-modern-building-construction_169016-69211.jpg?_wi=1"
       mediaAnimation="slide-up"
       imageAlt="construction site professional architecture"
     />
@@ -97,7 +97,7 @@ export default function LandingPage() {
             imageSrc: "http://img.b2bpic.net/free-photo/raw-concrete-building-construction-against-cloudy-sky_626616-500.jpg",
             imageAlt: "commercial building construction site",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/spacious-residential-complex-waterfront-with-reflection-modern-building-construction_169016-69211.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/spacious-residential-complex-waterfront-with-reflection-modern-building-construction_169016-69211.jpg?_wi=2",
           imageAlt: "commercial building construction site",
         },
         {
@@ -111,7 +111,7 @@ export default function LandingPage() {
             imageSrc: "http://img.b2bpic.net/free-photo/monochrome-scene-depicting-life-workers-construction-industry-site_23-2151431410.jpg",
             imageAlt: "commercial building construction site",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/real-estate-agent-advising-clients-office-relocation-leasing_482257-91134.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/real-estate-agent-advising-clients-office-relocation-leasing_482257-91134.jpg?_wi=1",
           imageAlt: "commercial building construction site",
         },
         {
@@ -125,7 +125,7 @@ export default function LandingPage() {
             imageSrc: "http://img.b2bpic.net/free-photo/serious-african-american-lady-safety-helmet-standing-near-model-building-table_23-2148039867.jpg",
             imageAlt: "commercial building construction site",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/two-carpenters-with-face-masks-congratulating-each-other-successful-project-workshop_637285-11797.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/two-carpenters-with-face-masks-congratulating-each-other-successful-project-workshop_637285-11797.jpg?_wi=1",
           imageAlt: "commercial building construction site",
         },
       ]}
@@ -160,7 +160,7 @@ export default function LandingPage() {
           name: "Kunle Adeyemi",
           handle: "@kunle_a",
           testimonial: "Samanate delivered our office project ahead of schedule. Truly professional.",
-          imageSrc: "http://img.b2bpic.net/free-photo/real-estate-agent-advising-clients-office-relocation-leasing_482257-91134.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/real-estate-agent-advising-clients-office-relocation-leasing_482257-91134.jpg?_wi=2",
           imageAlt: "happy client construction project portrait",
         },
         {
@@ -168,7 +168,7 @@ export default function LandingPage() {
           name: "Titi Balogun",
           handle: "@titi_b",
           testimonial: "Great attention to detail and reliable communication. Highly recommended.",
-          imageSrc: "http://img.b2bpic.net/free-photo/two-carpenters-with-face-masks-congratulating-each-other-successful-project-workshop_637285-11797.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/two-carpenters-with-face-masks-congratulating-each-other-successful-project-workshop_637285-11797.jpg?_wi=2",
           imageAlt: "business project client handshake",
         },
         {
