@@ -102,11 +102,10 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       testimonials={[
-        { id: "1", name: "Kunle Adeyemi", handle: "@kunle_a", testimonial: "Samanate delivered our office project ahead of schedule. Truly professional.", imageSrc: "http://img.b2bpic.net/free-photo/real-estate-agent-advising-clients-office-relocation-leasing_482257-91134.jpg", imageAlt: "happy client construction project portrait" },
-        { id: "2", name: "Titi Balogun", handle: "@titi_b", testimonial: "Great attention to detail and reliable communication. Highly recommended.", imageSrc: "http://img.b2bpic.net/free-photo/two-carpenters-with-face-masks-congratulating-each-other-successful-project-workshop_637285-11797.jpg", imageAlt: "business project client handshake" },
-        { id: "3", name: "Chinedu Okafor", handle: "@c_okafor", testimonial: "Trustworthy construction partners in Lagos. Will hire again.", imageSrc: "http://img.b2bpic.net/free-photo/low-angle-shot-woman-holding-coffee-cup_23-2148230174.jpg", imageAlt: "residential building success portrait" },
-        { id: "4", name: "Folake Adenuga", handle: "@folake_ad", testimonial: "Quality materials and skilled craftsmanship. Very satisfied.", imageSrc: "http://img.b2bpic.net/free-photo/two-people-working-warehouse_329181-12852.jpg", imageAlt: "project site happy client" },
-        { id: "5", name: "Babatunde Ade", handle: "@baba_ade", testimonial: "Top tier project management for our residential estate.", imageSrc: "http://img.b2bpic.net/free-photo/two-people-giving-fist-bump_53876-25109.jpg", imageAlt: "commercial development client success" }
+        { id: "1", name: "Olugbenga Ajayi", handle: "@olugbenga_a", testimonial: "I highly recommend Samanate for professional construction and consultation services." },
+        { id: "2", name: "Olawumi Jombo", handle: "@olawumi_j", testimonial: "Extremely reliable and professional team. A great experience working with them." },
+        { id: "3", name: "Victoria Nonye", handle: "@victoria_n", testimonial: "Absolutely awesome building construction and architectural design. Exceeded expectations!" },
+        { id: "4", name: "Gnankpon Tunde", handle: "@tunde_gn", testimonial: "They are reliable, provide high quality work, and are always timely and cost-effective." }
       ]}
       title="Client Success Stories"
       description="See why clients trust us with their biggest projects."
