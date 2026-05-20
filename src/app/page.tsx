@@ -14,6 +14,13 @@ import TestimonialCardSix from '@/components/sections/testimonial/TestimonialCar
 import { MapPin, Phone, Shield } from "lucide-react";
 
 export default function LandingPage() {
+  const handleQuoteClick = () => {
+    const element = document.getElementById('contact');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <ThemeProvider
         defaultButtonVariant="bounce-effect"
@@ -47,7 +54,7 @@ export default function LandingPage() {
       logoText="Building Excellence in Lagos"
       description="Samanate Construction Limited delivers premium building solutions with precision, integrity, and timely execution for every project."
       buttons={[
-        { text: "Get a Quote", href: "#contact" },
+        { text: "Get a Quote", onClick: handleQuoteClick },
         { text: "Our Services", href: "#services" },
       ]}
       buttonAnimation="slide-up"
@@ -73,7 +80,7 @@ export default function LandingPage() {
         },
         {
           title: "Renovation Works",          description: "Transforming existing structures into modern masterpieces.",          phoneOne: { imageSrc: "http://img.b2bpic.net/free-photo/tall-colorful-skycrapers-with-beautiful-blue-sky-background_231208-7623.jpg", imageAlt: "commercial building construction site" },
-          phoneTwo: { imageSrc: "http://img.b2bpic.net/free-photo/serious-african-american-lady-safety-helmet-standing-near-model-building-table_23-2148039867.jpg", imageAlt: "commercial building construction site" }
+          phoneTwo: { imageSrc: "http://img.b2bpic.net/serious-african-american-lady-safety-helmet-standing-near-model-building-table_23-2148039867.jpg", imageAlt: "commercial building construction site" }
         }
       ]}
       showStepNumbers={false}
@@ -153,6 +160,7 @@ export default function LandingPage() {
       mediaAnimation="slide-up"
       tag="Contact Us"
       imageAlt="modern office building professional"
+      ariaLabel="Contact form to request a project quote"
     />
   </div>
 
@@ -161,8 +169,8 @@ export default function LandingPage() {
       logoText="Samanate Construction"
       copyrightText="© 2024 Samanate Construction Limited"
       socialLinks={[
-        { icon: Phone, href: "tel:08027528211", ariaLabel: "Call us" },
-        { icon: MapPin, href: "https://maps.google.com", ariaLabel: "View Directions" },
+        { icon: Phone, href: "tel:08027528211", ariaLabel: "Call Samanate Construction" },
+        { icon: MapPin, href: "https://maps.google.com", ariaLabel: "View Directions on Map" },
       ]}
     />
   </div>
